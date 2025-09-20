@@ -1,0 +1,23 @@
+[
+    {
+        "image": "assets/images/web.png",
+        "image_alt": "Icon of a web page",
+        "title": "My Personal Website",
+        "description": "A personal website hosted on GitHub Pages with a static landing page.",
+        "link": "https://github.com/Lluc24/lluc24.github.io"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Lluc24/miniJ/main/jblue.png",
+        "image_alt": "Icon of the miniJ project",
+        "title": "miniJ",
+        "description": "Interpreter of a simplified version of J (derived from APL) implemented in Python using ANTLR and NumPy.",
+        "link": "https://github.com/Lluc24/miniJ"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Lluc24/multiagent-RL/main/images/pogema_sample_image.png",
+        "image_alt": "Icon of the multiagent RL project",
+        "title": "Multi Agent Reinforcement Learning",
+        "description": "Explored Reinforcement Learning algorithms in a partially observable, multi-agent environment. Focused on Joint-Action Learning leveraging Game-Theoretic solution concepts to study agent coordination and strategic interactions.",
+        "link": "https://github.com/Lluc24/multiagent-RL"
+    }
+]
