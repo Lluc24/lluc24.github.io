@@ -1,0 +1,7 @@
+// Fetch footer.html and insert it into the page
+fetch('partial/footer.html')
+    .then(response => response.text()) // get the HTML content
+    .then(data => {
+        document.getElementById('footer').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
