@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>My Personal Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Optional custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="navbar"></div>
     <script src="navbar.js"></script>
 
-    <h1>Hello, I'm Lluc Santamaria Riba</h1>
-    <p>Welcome to my very first website using GitHub Pages</p>
-    <p>You can check out my projects on 
-        <a href="https://github.com/Lluc24" target="_blank">my GitHub</a>.
-    </p>
-    <img src="https://avatars.githubusercontent.com/Lluc24" 
-         alt="My GitHub Avatar" width="200">
+    <div class="container text-center">
+        <h1 class="mb-3">Hello, I'm Lluc Santamaria Riba</h1>
+        <p class="lead mb-4">Welcome to my very first website using GitHub Pages</p>
+        <p>You can check out my projects on 
+            <a href="https://github.com/Lluc24" target="_blank">my GitHub</a>.
+        </p>
+        <img src="https://avatars.githubusercontent.com/Lluc24" class="rounded-circle shadow mb-4" width="200">
 
-    <h2>Fun Fact</h2>
-    <p id="fun-fact">Click the button to learn something about me!</p>
-    <button onclick="showFunFact()">Show a fun fact</button>
+        <h2>Fun Fact</h2>
+        <p id="fun-fact">Click the button to learn something about me!</p>
+        <button onclick="showFunFact()">Show a fun fact</button>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
