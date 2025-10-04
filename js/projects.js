@@ -7,8 +7,20 @@ fetch('data/projects.json')
         projects.forEach(proj => {
             const clone = template.content.cloneNode(true);
 
-            clone.querySelector('.project-image').src = proj.image;
-            clone.querySelector('.project-image').alt = proj.image_alt;
+            const imgEl = clone.querySelector('.project-image');
+            imgEl.src = proj.image;
+            imgEl.alt = proj.image_alt;
+            imgEl.onload = function() {
+                const ratio = imgEl.naturalWidth / imgEl.naturalHeight;
+                if (ratio > 1) {
+                    imgEl.style.height = "50%";
+                    imgEl.style.width = "auto";
+                } else {
+                    imgEl.style.width = "50%";
+                    imgEl.style.height = "auto";
+                }
+            };
+
             clone.querySelector('.project-title').textContent = proj.title;
             clone.querySelector('.project-description').textContent = proj.description;
             clone.querySelector('.project-link').href = proj.link;
