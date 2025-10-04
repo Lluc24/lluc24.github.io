@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experience</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Optional custom CSS -->
+    <link rel="stylesheet" href="css/experience.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div id="navbar"></div>
+    <script src="js/navbar.js"></script>
+
+    <main class="flex-fill">
+        <div class="container">
+            <h2 class="mb-4">Experience</h2>
+
+            <div id="experience" class="column"></div>
+
+            <!-- Template (hidden) -->
+            <template id="experience-template">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-1 d-flex align-items-center justify-content-center">
+                            <img class="img-fluid rounded experience-image">
+                        </div>
+                        <div class="col-md-11">
+                            <div class="card-body">
+                                <h5 class="card-title experience-title"></h5>
+                                <h6 class="card-subtitle mb-2 text-muted experience-institution"></h6>
+                                <h6 class="card-subtitle mb-2 text-muted experience-dates"></h6>
+                                <p class="card-text experience-description"></p>
+                                <a class="btn btn-primary experience-link" target="_blank" rel="noopener noreferrer">
+                                    View <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <script src="js/experience.js"></script>
+        </div>
+    </main>
+
+    <div id="footer"></div>
+    <script src="js/footer.js"></script>
+</body>
+</html>

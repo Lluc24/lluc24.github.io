@@ -1,0 +1,84 @@
+[
+    
+    {
+        "image": "assets/images/scala-logo.png",
+        "image_alt": "Scala Logo",
+        "title": "Match Types Research",
+        "institution": "LAMP - Programming Methods Laboratory, EPFL",
+        "dates": "Sep 2025 - Present",
+        "description": "As part of my Research Project at EPFL, I am implementing divergence checking for Match Types in Scala 3. This project is under the guidance of Martin Odersky (creator of Scala language programming and author of javac compiler) and Matthieu Bovel.",
+        "link": "https://lamp.epfl.ch/"
+    },
+    {
+        "image": "assets/images/investment_society-logo.png",
+        "image_alt": "Investment Society Lausanne Logo",
+        "title": "IT Market Analyst",
+        "institution": "Investment Society Lausanne - Student Association",
+        "description": "Contributing to the management of the largest non-profit fund in the region. Focused on identifying long-term value and dividend opportunities in telecommunications, semiconductors, and related technologies",
+        "dates": "Sep 2025 - Present",
+        "link": "https://www.investment-society.ch/"
+    },
+    {
+        "image": "assets/images/bsc-logo.png",
+        "image_alt": "Barcelona Supercomputing Center Logo",
+        "title": "Summer Internship - LLM Researcher & Parallel Programming",
+        "institution": "Barcelona Supercomputing Center (BSC)",
+        "dates": "Jul 2025 - Aug 2025",
+        "description": "Fine-tuned and evaluated a CodeLlama-based model on the MareNostrum 5 supercomputer to generate PyCOMPSs-parallelized code",
+        "link": "https://www.bsc.es/"
+    },
+    {
+        "image": "assets/images/eixos_creativa-logo.jpeg",
+        "image_alt": "Eixos Creativa Logo",
+        "title": "Creative Technology Teacher",
+        "institution": "Eixos Creativa",
+        "dates": "Apr 2025 - Jun 2025",
+        "description": "Taught extracurricular creative technology program to 10-12-year-olds. Led activities that promoted collaboration, creativity, and STEM engagement.",
+        "link": "https://www.eixoscreativa.com/"
+    },
+    {
+        "image": "assets/images/alba-logo.png",
+        "image_alt": "ALBA Synchrotron Logo",
+        "title": "Software Engineering Intern",
+        "institution": "ALBA Synchrotron",
+        "dates": "Oct 2024 - Apr 2025",
+        "description": "Developed web applications using Django, RESTful API, and AngularJS.",
+        "link": "https://www.cells.es/en"
+    },
+    {
+        "image": "assets/images/ibericus-logo.png",
+        "image_alt": "Ibericus Logo",
+        "title": "Waitperson & Bartender",
+        "institution": "Ibericus",
+        "dates": "Jul 2024 - Aug 2025",
+        "description": "Provided table service and handled food orders. Assisted customers and ensured a positive experience.",
+        "link": "https://www.ibericus.cat/"
+    },
+    {
+        "image": "assets/images/fib-logo.png",
+        "image_alt": "FIB Logo",
+        "title": "Scholarship - Lecturer in Mathematics",
+        "institution": "Facultat d'Informàtica de Barcelona (FIB)",
+        "dates": "Feb 2024 - Jun 2024",
+        "description": "Delivered lectures on discrete mathematics to first-year university students. Served as the coordinator for some lecturers, ensuring alignment and consistency.",
+        "link": "https://www.fib.upc.edu/en"
+    },
+    {
+        "image": "assets/images/teach-logo.png",
+        "image_alt": "Teaching Logo",
+        "title": "Private Lessons and Tutoring",
+        "institution": "Self-employed",
+        "dates": "Dec 2020 - Jun 2024",
+        "description": "Provided personalized tutoring to five high school students in various subjects. Improved students' academic performance, achieving noticeable grade increases.",
+        "link": "https://www.barcelona.cat/en/"
+    },
+    {
+        "image": "assets/images/mcdonalds-logo.png",
+        "image_alt": "McDonald's Logo",
+        "title": "Cook & Waitperson",
+        "institution": "McDonald's",
+        "dates": "Jun 2023 - Aug 2023",
+        "description": "Prepared food accurately and quickly, ensuring quality and cleanliness standards. Delivered fast service while handling customer orders and concerns efficiently.",
+        "link": "https://www.mcdonalds.com/"
+    }
+]
