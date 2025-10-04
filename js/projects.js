@@ -13,11 +13,13 @@ fetch('data/projects.json')
             imgEl.onload = function() {
                 const ratio = imgEl.naturalWidth / imgEl.naturalHeight;
                 if (ratio > 1) {
-                    imgEl.style.height = "50%";
-                    imgEl.style.width = "auto";
+                    const heightPercentage = 1/ratio * 100;
+                    imgEl.style.maxHeight = `${heightPercentage}%`;
+                    imgEl.style.maxWidth = "auto";
                 } else {
-                    imgEl.style.width = "50%";
-                    imgEl.style.height = "auto";
+                    const widthPercentage = ratio * 100;
+                    imgEl.style.maxWidth = `${widthPercentage}%`;
+                    imgEl.style.maxHeight = "auto";
                 }
             };
 

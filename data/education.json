@@ -1,0 +1,29 @@
+[
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Logo_EPFL_2019.svg/182px-Logo_EPFL_2019.svg.png",
+        "image_alt": "EPFL Logo",
+        "title": "Exchange Semester in Computer Science",
+        "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+        "dates": "Sept 2025 - Jan 2026",
+        "description": "Courses included Machine Learning (8 ECTS), Mathematical Modeling of Behaviour (5 ECTS), Causal Thinking (5 ECTS), and a Research Project at the Programming Methods Laboratory (LAMP) under the guidance of Martin Odersky (creator of Scala language programming and author of javac compiler) and Matthieu Bovel.",
+        "link": "https://people.epfl.ch/lluc.santamariariba"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/110px-Logo_UPC.svg.png",
+        "image_alt": "UPC Logo",
+        "title": "Bachelor's Degree in Computer Engineering - Major in Computer Science",
+        "institution": "Universitat Politècnica de Catalunya (UPC)",
+        "dates": "Sept 2022 - Jun 2026 (expected)",
+        "description": "Top 1 student of my cohort with a GPA 9.25/10. Honors in 16 courses. Elected as delegate for three courses.",
+        "link": "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Fundacio_collserola_logo.png",
+        "image_alt": "Fundació Collserola Logo",
+        "title": "High School - Technological Baccalaureate",
+        "institution": "Institut-Escola Frederic Mistral - Fundació Collserola",
+        "dates": "Sept 2020 - Jun 2022",
+        "description": "Ranked among the top students in the university entrance exams (grade 12.7 out of 14). Completed high school with distinction (grade 8.72 out of 10).",
+        "link": "https://fredericmistral-tecniceulalia.cat/en/educational-offer/baccalaureate/"
+    }
+]
