@@ -1,0 +1,13 @@
+<!-- ls-monogram.svg — uppercase "LS" monogram, fills the square viewBox -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">LS monogram</title>
+  <desc id="desc">Capital letters L and S occupying most of the square area.</desc>
+
+  <!-- Optional background for preview (comment out if you want transparent) -->
+  <!-- <rect width="100" height="100" fill="#fff"/> -->
+
+  <!-- Big, bold LS. textLength forces the glyphs to occupy horizontal space.
+       lengthAdjust="spacingAndGlyphs" makes the characters scale/stretch slightly
+       so they fill the width more uniformly across fonts. -->
+  <text x="50" y="58" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="72" fill="#000" textLength="84" lengthAdjust="spacingAndGlyphs">LS</text>
+</svg>
