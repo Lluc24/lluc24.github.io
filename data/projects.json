@@ -1,5 +1,12 @@
 [
     {
+        "image": "https://raw.githubusercontent.com/KianBahia/SUI_Hack/main/public/favicon.svg",
+        "image_alt": "Icon of the Healix project",
+        "title": "Healix",
+        "description": "This project was developed during the SUI Foundation Hackathon Lausanne 2025. It is a decentralized platform for sharing emotions securely on the Sui blockchain, with on-chain encryption using SEAL and Move smart contracts.",
+        "link": "https://github.com/KianBahia/SUI_Hack"
+    },
+    {
         "image": "assets/images/web.png",
         "image_alt": "Icon of a web page",
         "title": "My Personal Website",
@@ -19,5 +26,12 @@
         "title": "Multi Agent Reinforcement Learning",
         "description": "Explored Reinforcement Learning algorithms in a partially observable, multi-agent environment. Focused on Joint-Action Learning leveraging Game-Theoretic solution concepts to study agent coordination and strategic interactions.",
         "link": "https://github.com/Lluc24/multiagent-RL"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/AlexGonzalezFernandez/VisualSearch-HackUPC2025/main/frontend/assets/images/snap2shop_logo.png",
+        "image_alt": "Icon of the Snap2Shop project",
+        "title": "Snap2Shop",
+        "description": "This project was developed during the HackUPC Hackathon Barcelona 2025, solving the Inditex challenge. It is a mobile app built using Flutter, FastAPI and Inditex API which leverages Computer Vision solutions for visual search of fashion clothes.",
+        "link": "https://github.com/AlexGonzalezFernandez/VisualSearch-HackUPC2025"
     }
 ]
