@@ -1,61 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Lluc Santamaria</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/icons/ls.svg">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lluc Santamaria — Hacker, Builder, Deployer</title>
+  <meta name="description" content="I'm a hacker who builds and ships fast. Compiler research, AI, blockchain, and full-stack web.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ls.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
-    <div id="navbar"></div>
-    <script src="js/navbar.js"></script>
+<body>
 
-    <main class="flex-fill">
-        <div class="container text-center">
-            <img id="photo" src="assets/images/profile.jpg" alt="Profile photo" class="rounded-circle shadow mb-4" width="200">
-            <h1 id="name" class="mb-3">Lluc Santamaria Riba</h1>
-            <h3 id="position" class="mb-4">Position</h3>
+  <!-- ───── NAV ───── -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">~/lluc</a>
+      <div class="nav-links">
+        <a href="#projects">projects</a>
+        <a href="#repos">repos</a>
+        <a href="#stack">stack</a>
+        <a href="https://github.com/Lluc24" target="_blank" rel="noopener">github</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-            <p id="about-me">About me</p>
+  <!-- ───── HERO ───── -->
+  <header id="hero">
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">lluc@dev ~ %</span>
+      </div>
+      <div class="terminal-body">
+        <p class="line"><span class="prompt">$</span> whoami</p>
+        <h1 class="line output" id="typed-name"></h1>
+        <p class="line"><span class="prompt">$</span> cat bio.txt</p>
+        <p class="line output bio">Balsells Research Fellow at UCI &nbsp;🇺🇸<br>Computer Science @ FIB-UPC &nbsp;🇪🇸<br>Top&#8239;1 student · GPA 9.25/10</p>
+        <p class="line"><span class="prompt">$</span> echo $MOTTO</p>
+        <p class="line output motto">"I'm a hacker who builds and ships fast."</p>
+        <p class="line blink-cursor"><span class="prompt">$</span> <span class="cursor">█</span></p>
+      </div>
+    </div>
+    <div class="hero-links">
+      <a href="https://github.com/Lluc24" target="_blank" rel="noopener" class="hero-btn">
+        <img src="assets/icons/github.svg" alt="" width="18" height="18"> GitHub
+      </a>
+      <a href="https://linkedin.com/in/lluc-santamaria" target="_blank" rel="noopener" class="hero-btn">
+        <img src="assets/icons/linkedin.svg" alt="" width="18" height="18"> LinkedIn
+      </a>
+      <a href="https://devpost.com/lluc-santamaria" target="_blank" rel="noopener" class="hero-btn">
+        <img src="assets/icons/devpost.svg" alt="" width="18" height="18"> Devpost
+      </a>
+    </div>
+  </header>
 
-            <!-- Navigation Buttons -->
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-8">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <a href="experience.html" class="btn btn-outline-primary btn-lg w-100">
-                                <i class="bi bi-briefcase-fill me-2"></i>Experience
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="education.html" class="btn btn-outline-primary btn-lg w-100">
-                                <i class="bi bi-mortarboard-fill me-2"></i>Education
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="projects.html" class="btn btn-outline-primary btn-lg w-100">
-                                <i class="bi bi-folder-fill me-2"></i>Projects
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="contact.html" class="btn btn-outline-primary btn-lg w-100">
-                                <i class="bi bi-envelope-fill me-2"></i>Contact
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- ───── FEATURED PROJECTS ───── -->
+  <section id="projects">
+    <h2 class="section-title"><span class="hash">#</span> Featured Projects</h2>
+    <div class="projects-grid">
 
-            <script src="js/homepage.js"></script>
+      <!-- divergence -->
+      <article class="project-card featured">
+        <div class="card-header">
+          <span class="tag compiler">Compiler Research</span>
+          <span class="tag award">Grade 6.0/6.0</span>
         </div>
-    </main>
+        <h3><a href="https://github.com/Lluc24/divergence" target="_blank" rel="noopener">divergence</a></h3>
+        <p>Static divergence checking for Scala 3 match types. Implements a termination guarantee algorithm in the <a href="https://github.com/scala/scala3/pull/24661" target="_blank" rel="noopener">Scala 3 compiler (PR #24661)</a>, directed by Martin Odersky at EPFL. Will culminate in a Scala Improvement Proposal (SIP).</p>
+        <div class="card-tech">Scala 3 · Compiler · Type Theory</div>
+      </article>
 
-    <div id="footer"></div>
-    <script src="js/footer.js"></script>
+      <!-- Healix -->
+      <article class="project-card featured">
+        <div class="card-header">
+          <span class="tag blockchain">Blockchain</span>
+          <span class="tag award">🏆 $1k Prize</span>
+        </div>
+        <h3><a href="https://github.com/KianBahia/SUI_Hack" target="_blank" rel="noopener">Healix</a></h3>
+        <p>Decentralized platform for sharing emotions securely on the Sui blockchain with on-chain encryption using SEAL and Move smart contracts. Winner at SUI × BSA Hackathon 2025, Lausanne.</p>
+        <div class="card-tech">Move · Sui · SEAL · React</div>
+      </article>
+
+      <!-- Snap2Shop -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="tag ai">Computer Vision</span>
+          <span class="tag hackathon">HackUPC 2025</span>
+        </div>
+        <h3><a href="https://github.com/AlexGonzalezFernandez/VisualSearch-HackUPC2025" target="_blank" rel="noopener">Snap2Shop</a></h3>
+        <p>Mobile visual search app for fashion clothes solving the Inditex challenge. Built with Flutter, FastAPI and Inditex API leveraging Computer Vision.</p>
+        <div class="card-tech">Flutter · FastAPI · CV · Python</div>
+      </article>
+
+      <!-- multiagent-RL -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="tag ai">Reinforcement Learning</span>
+        </div>
+        <h3><a href="https://github.com/Lluc24/multiagent-RL" target="_blank" rel="noopener">multiagent-RL</a></h3>
+        <p>Multi-agent RL in a partially observable environment. Joint-Action Learning with Game-Theoretic solution concepts to study agent coordination and strategic interactions.</p>
+        <div class="card-tech">Python · NumPy · Game Theory</div>
+      </article>
+
+      <!-- miniJ -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="tag compiler">Language</span>
+        </div>
+        <h3><a href="https://github.com/Lluc24/miniJ" target="_blank" rel="noopener">miniJ</a></h3>
+        <p>Interpreter for a simplified version of J (derived from APL) implemented in Python using ANTLR and NumPy.</p>
+        <div class="card-tech">Python · ANTLR · NumPy</div>
+      </article>
+
+      <!-- django-base -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="tag web">Web</span>
+        </div>
+        <h3><a href="https://github.com/Lluc24/django-base" target="_blank" rel="noopener">django-base</a></h3>
+        <p>Django starter template with Gemini chatbot integration. Ready-to-deploy boilerplate for full-stack web apps.</p>
+        <div class="card-tech">Django · Python · Gemini API</div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ───── GITHUB REPOS (live) ───── -->
+  <section id="repos">
+    <h2 class="section-title"><span class="hash">#</span> GitHub Repos <span class="live-dot"></span></h2>
+    <p class="section-sub">Fetched live from the GitHub API</p>
+    <div id="repos-grid" class="repos-grid">
+      <div class="loading-spinner"></div>
+    </div>
+  </section>
+
+  <!-- ───── TECH STACK ───── -->
+  <section id="stack">
+    <h2 class="section-title"><span class="hash">#</span> Tech Stack</h2>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h4>Languages</h4>
+        <ul>
+          <li>Python</li><li>Java</li><li>Scala 3</li><li>TypeScript</li>
+          <li>JavaScript</li><li>Move</li><li>CLIPS</li><li>PDDL</li><li>TeX</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h4>Frameworks</h4>
+        <ul>
+          <li>Django</li><li>React / Next.js</li><li>Flutter</li><li>FastAPI</li>
+          <li>ANTLR</li><li>NumPy</li><li>Sui / SEAL</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h4>Tools</h4>
+        <ul>
+          <li>Git</li><li>GitHub Actions</li><li>LaTeX</li><li>Docker</li>
+          <li>Linux</li><li>VS Code</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <p class="footer-prompt"><span class="prompt">$</span> echo "Thanks for stopping by."</p>
+      <div class="footer-qr">
+        <img src="assets/qr/connect-qr.png" alt="Scan to connect" width="140" height="140">
+        <p class="qr-label">Scan to connect</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Lluc24" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/lluc-santamaria" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://devpost.com/lluc-santamaria" target="_blank" rel="noopener">Devpost</a>
+        <a href="mailto:lluc.santa@gmail.com">Email</a>
+      </div>
+      <p class="copyright">© 2026 Lluc Santamaria · Built with raw HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
